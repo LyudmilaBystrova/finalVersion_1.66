@@ -248,7 +248,7 @@ button {
 
 .about-us__navigation-button {
   border: 2px solid transparent;
-  padding: 8px 9.3px 8px 16.5px;
+  padding: 8px 13px;
   color: #7E7E82;
   font-family: "TT Lakes Medium", sans-serif;
   font-size: 16px;
@@ -721,7 +721,11 @@ main.main {
 .equipment__types {
   position: relative;
   padding: 0 32px 0 0;
-  height: 160px; }
+  height: 240px; }
+
+@media screen and (min-width: 768px) {
+  .equipment__types {
+    height: 175px; } }
 
 @media screen and (min-width: 769px) {
   .equipment__container {
