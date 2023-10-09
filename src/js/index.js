@@ -8,7 +8,7 @@ import "./modal-call"
 
 let button = document.querySelector(".brands__show-all");
 let buttonText = button.querySelector("span");
-let buttonIcon = button.querySelector("svg");
+let buttonIcon = button.querySelector(".arrow");
 let hiddenElements = document.querySelectorAll(".brands__company");
 let paragraph = document.querySelector(".brands__names")
 
