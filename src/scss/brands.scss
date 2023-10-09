@@ -79,8 +79,27 @@
 }
 
 .brands__company button {
-  background: transparent;
-  border: none;
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  border-radius: 50%;
+  border: 2px solid $brightPink;
+  background-color: $buttonHoverColor;
+  width: 40px;
+  height: 40px;
+}
+
+.brands-button {
+  padding: 10px 14px 8px;
+}
+
+.brands-arrow {
+width: 7.5px;
+height: 7.5px;
+border-top: 2px solid $brightPink;
+border-right: 2px solid $brightPink;
+margin-right: 60px;
+transform: rotate(45deg);
 }
 
 @media (min-width: 768px) {
