@@ -7,14 +7,14 @@ import "./modal-call"
 
 
 let button = document.querySelector(".brands__show-all");
-let buttonText = button.querySelector("span");
+let buttonText = button.querySelector(".brands__text");
 let buttonIcon = button.querySelector(".arrow");
 let hiddenElements = document.querySelectorAll(".brands__company");
 let paragraph = document.querySelector(".brands__names")
 
 let buttonEquipment = document.querySelector(".equipment__show-all");
-let buttonEquipmentText = buttonEquipment.querySelector("span");
-let buttonEquipmentIcon = buttonEquipment.querySelector("svg");
+let buttonEquipmentText = buttonEquipment.querySelector(".equipment__text");
+let buttonEquipmentIcon = buttonEquipment.querySelector(".arrow");
 let hiddenEquipmentItems = document.querySelectorAll(".equipment__item");
 let paragraphEquipment = document.querySelector(".equipment__types");
 
